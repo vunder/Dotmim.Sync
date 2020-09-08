@@ -1,4 +1,4 @@
-If(db_id(N'SyncTest') IS NULL)
+If(db_id('SyncTest') IS NULL)
     BEGIN
         CREATE DATABASE [SyncTest]
     END;
