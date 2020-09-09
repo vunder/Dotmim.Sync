@@ -2,6 +2,7 @@ If(db_id('SyncTest') IS NULL)
     BEGIN
         CREATE DATABASE [SyncTest]
     END;
+GO
 
 use SyncTest;
 
